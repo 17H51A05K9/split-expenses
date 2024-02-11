@@ -86,7 +86,7 @@ export default function MyExpenses() {
         <>
         <div className="bg-[url('https://t3.ftcdn.net/jpg/03/91/46/10/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg')]">
             <Container className="flex items-center justify-center gap-8">
-                <button className="rounded-lg bg-red-500 max-w-40 md:w-1/6 sm:w-1/2 max-h-60 md:h-40 sm:h-40 shadow-lg shadow-red-500/50 md:text-6xl sm:text-xl"><h3 className="md:text-xl sm:text-sm">Cash Out</h3>{red}</button>
+                <button className="rounded-lg bg-red-500 max-w-40 md:w-1/6 sm:w-28 max-h-60 md:h-40 sm:h-40 shadow-lg shadow-red-500/50 md:text-6xl sm:text-xl"><h3 className="md:text-xl sm:text-sm">Cash Out</h3>{red}</button>
                 <button className=" rounded-lg bg-green-500 max-w-40 md:w-1/6 sm:w-1/2 max-h-60 md:h-40 sm:h-40 shadow-lg shadow-green-500/50 md:text-6xl sm:text-xl"><h3 className="md:text-xl sm:text-sm">Cash In</h3>{green}</button>
                 <button className=" rounded-lg bg-yellow-500 max-w-40 md:w-1/6 sm:w-1/2 max-h-60 md:h-40 sm:h-40 shadow-lg shadow-yellow-500/50 md:text-6xl sm:text-xl"><h3 className="md:text-xl sm:text-sm">Balance</h3>{yellow}</button>
             </Container>
